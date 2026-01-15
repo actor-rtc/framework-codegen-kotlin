@@ -1,6 +1,7 @@
 plugins {
     kotlin("jvm") version "1.9.22"
     application
+    id("com.google.protobuf") version "0.9.4"
 }
 
 group = "io.actor-rtc"
